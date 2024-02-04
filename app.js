@@ -17,9 +17,7 @@ function desativarBotao() {
 
 function clicouBotao() {
     contador++;
-    console.log(contador);
     pergunta = document.getElementById("pergunta");
-    console.log(contador);
     return {contador, pergunta};
 }
 
