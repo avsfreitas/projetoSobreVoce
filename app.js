@@ -35,7 +35,7 @@ function perguntas() {
     } else if (contador == 3) {
         let linguagem = document.getElementById("respostas").value;
         let resultadoNome = document.getElementById("resultadoNome");
-        resultadoNome.innerHTML = `Olá ${nome}, você tem ${idade} e já está aprendendo ${linguagem}`;
+        resultadoNome.innerHTML = `Olá ${nome}, você tem ${idade} anos e já está aprendendo ${linguagem}`;
         pergunta.innerHTML = `Você gosta de estudar ${linguagem}? <br> Responda com 1 para " sim " e 2 para " não "`;
         
     } else {
