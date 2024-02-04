@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 7 Days Of Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="container">
+            <h1>Desafio dia 2</h1>
+            <div id="perguntasERespostas">
+                <label for="respostas" id="pergunta">Qual o seu nome?</label>
+                <input type="text" name="respostas" id="respostas" onchange="ativarBotao()">
+                <button id="botaoEnviar" disabled  onclick="clicouBotao(); perguntas(); limparInput()">Enviar</button>
+            </div>
+            <div id="resultado">
+                <h2 id="resultadoNome"></h2>
+                <h2 id="resultadoLinguagem"></h2>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por <strong>Amanda Freitas</strong></p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
